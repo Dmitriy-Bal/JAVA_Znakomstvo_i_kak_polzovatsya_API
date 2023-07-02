@@ -26,6 +26,14 @@ public class Ex2 {
             }
         }
     }
+
+    /**
+     * @apiNote Написать программу, которая найдёт и выведет повторяющиеся имена с количеством повторений.
+     * Отсортировать по убыванию популярности
+     * @param list Список сотрудников
+     * @return Количество имён в порядке убывания
+     */
+    
     public static ArrayList<String> getName(String[] list) {
         ArrayList<String> listName = new ArrayList<>();
         for (String el : list) {
